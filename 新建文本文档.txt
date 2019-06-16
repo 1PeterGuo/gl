@@ -1,0 +1,33 @@
+用户名：sanfang
+	密码：123456
+	手机号：18500124513
+
+
+访问接口地址：http://yun918.cn/study/public/index.php/
+
+登录：
+
+
+
+注册：
+	路径：register
+	请求：post 
+	参数：{
+		"username": "sanfang",
+		"password": "123456",
+		"phone": "18500124513",
+		"verify":"druf"
+		}
+	返回结果：{"code":200,"ret":"注册成功","data":""}
+	
+
+
+验证码：
+	路径：verify
+	请求：get
+	参数：无
+	返回结果：{
+  "code": 200,
+  "ret": "success",
+  "data": "druf"
+}
